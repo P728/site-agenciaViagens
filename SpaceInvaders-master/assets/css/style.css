@@ -1,0 +1,16 @@
+#cursor {
+    cursor: url("../../../public/image/cursor-2.cur"), default;
+}
+
+body{
+    background-color: none;
+    background-image: url("../img/starfield.png");
+}
+
+#game {
+    display: block;
+    position: fixed;
+    margin: 40px 80px 40px 80px;
+    width: 100%;
+    height: 100%;
+}

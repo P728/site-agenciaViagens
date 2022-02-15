@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+
+  display: flex !important;
+  justify-content: center !important;
+
+  text-align: center;
+}
+
+li {
+  float: left;
+  position: relative;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  font: 20px/25px Eight Bit Dragon;
+  padding: 16px 18px;
+  text-decoration: none;
+  text-shadow: -1px -1px white, 1px 1px #333;
+  cursor: url("../image/cursor-1.cur"), pointer;
+
+  -webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+}
+
+li a:hover:not(.active) {
+  color: rgb(99, 102, 241);
+}
+
+@media (max-width: 800px) {
+  ul {
+    flex-direction: column;
+  }
+}

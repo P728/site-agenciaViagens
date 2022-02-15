@@ -1,0 +1,10 @@
+html, body {
+    background-image: url("../image/fundo.jpg");
+    font-family: "Eight Bit Dragon";
+    overflow:hidden;
+    cursor: url("../image/cursor-2.cur"), default;
+  
+    /*overflow-x: hidden;
+    overflow-y: hidden;*/
+}
+  
